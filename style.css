@@ -1,8 +1,47 @@
+body{
+}    
 .main {
     background: rgb(20, 20, 20);
 }
 .cabecalho {
+    padding: 15px;
     font-size: 25px;
     font-style: nf-icon;
     color: rgb(229, 9, 20);
+    padding: 15px
+}
+.titulo {
+    padding: 20px;
+    font-size: 21.856px;
+    text-align: left;
+    font-style: helvetica;
+    color: rgb(255, 255, 255);
+}
+.itens{
+    padding: 15px;
+    font-size: 19.154px;
+    font-style: helvetica;
+    color: rgb(255, 255, 255); 
+}
+ul {
+    display: inline-block;
+	vertical-align: top;
+    font-size: 21.856px;
+	width: 20%;
+	margin-right: 15%;  
+  
+}
+
+#primeiraImagem{
+    width: 57%;
+    border-left: rgb(229, 9, 20);
+    margin-right: 30px;
+
+}
+.texto{
+    padding: 16px;
+    font-size: 21.856px;
+    text-align: left;
+    font-style: helvetica;
+    color: rgb(255, 255, 255);  
 }
