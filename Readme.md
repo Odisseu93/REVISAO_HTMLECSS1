@@ -10,5 +10,5 @@
     <li>listas</li>
     <li>imagens</li>
     <li>posicionamento de conteudo</li>
-    <<li>dentre outros</li>
+    <li>dentre outros</li>
 </ul>
