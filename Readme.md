@@ -12,4 +12,4 @@
     <li>posicionamento de conteudo</li>
     <li>dentre outros</li>
 </ul>
-Link da página: <https://odisseu93.github.io/REVISAO_HTMLECSS1/>
+Link da página: (https://odisseu93.github.io/REVISAO_HTMLECSS1/)
