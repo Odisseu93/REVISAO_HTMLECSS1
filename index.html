@@ -1,30 +1,41 @@
 <!DOCTYPE html> <!-- "Seta" o tipo de arquivo que ira ser lido pelo navegador -->
 <html lang= "pt-br"> <!-- Aqui e definido a linguagem  -->
-    <head>
-        <meta charset= "UFT-8"> <!-- aqui e setado o encode UFT-8 que tem varios acentos-->
-        <title>Revisao de Conteudo HTML5 e CSS3</title>
-        <link rel= "stylesheet" href= "style.css"><!-- Referencia a  pasta de estilo -->
-    </head>
+        <head>
+            <meta charset= "UFT-8"> <!-- aqui e setado o encode UFT-8 que tem varios acentos-->
+            <title>Revisao de Conteudo HTML5 e CSS3</title>
+            <link rel="stylesheet" href="reset.css">
+            <link rel= "stylesheet" href= "style.css"><!-- Referencia a  pasta de estilo -->
+        </head>
 
-    <body class= "main">
-        <header>
-            <h1 class= "cabecalho">
-                <strong>Revisão do curso de HTML5 e CSS3</strong>
-            </h1>
-        </header>
-        <img id="primeiraImagem" src= "html.jpg">
-        <h2 class= "titulo">O que foi aprendido neste curso:</h2>
-        <div>
-            <ul>
-                <li class= "itens">O que é o HTML e o CSS</li>
-                <li class= "itens">A estrutura básica de um arquivo HTML</li>
-                <li class= "itens">Utilizar o navegador para inspecionar elementos</li>
-                <li class= "itens">Definir estilos para elementos usando o CSS</li>
-                <li class= "itens">Desenvolver uma página Web</li>
-            </ul> 
-            <p class= "texto">Durante o Curso, eu aprendi várias coisas, dentre elas estão:<br>o meu entendimento de como funciona linguagem de marcação
-            html,<br> como funciona o css e as maneiras de aplica-lo ao meu código Html( inline,internal e external)<br>
-            a inserção de imagens na página, a criação de listas, o redimensionamento de conteúdo e muito mais.
-            </p>
-        </div>
-    </body>    
+        <body>
+            <header>
+                <h1 class= "cabecalho">Revisão do curso de HTML5 e CSS3</h1>
+            </header>
+                <main class="principal">
+
+                        <div class= "caixa">
+                            <ul class= "lista">
+                                <nav> <!--navigation-->
+                                <h2 class= "titulo">O que foi aprendido neste curso:</h2>
+                                <li class= "itens"><a href="https://www.alura.com.br/artigos/html-css-e-js-definicoes">O que é o HTML e o CSS</a></li>
+                                <li class= "itens"><a href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html">A estrutura básica de um arquivo HTML</a></li>
+                                <li class= "itens"><a href="https://www.codigofonte.com.br/artigos/como-ver-os-erros-do-meu-site-parte-1"> Utilizar o navegador para inspecionar elementos</a></li>
+                                <li class= "itens"><a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics">Definir estilos para elementos usando o CSS</a></li>
+                                <li class= "itens"><a href="https://www.youtube.com/watch?v=XnwijZyS6ro">Desenvolver uma página Web</a></li>
+                            </nav>
+                            </ul> 
+                            <img class="imagem" src= "html.jpg">
+                         </div>
+                    <p class= "texto">Durante o Curso, eu aprendi várias coisas, dentre elas estão:o meu entendimento de como funciona linguagem de marcação
+                    html,<br> como funciona o css e as maneiras de aplica-lo ao meu código Html( inline,internal e external)
+                    a inserção de imagens na página,<br> a criação de listas, o redimensionamento de conteúdo e muito mais.
+                    </p>
+            </main>
+            <footer>
+                <img id="odisseu-logo" src= "odisseu.png">
+                <p class="copyright">&copy;Copyright Ulisses Coporations - 2021</p>
+            
+            </footer>
+        </body>   
+       
+    </html>
