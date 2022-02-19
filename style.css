@@ -1,88 +1,131 @@
-body {  
-    font-style: bebas neue; /* font do netflixS*/
-    background-color: #040708;
-    color: #FFFFFF;
-}
+   :root {
+      display: flex;
+      justify-content: space-around;  
+      font-family: 'Montserrat', sans-serif;
+      /* fonte Montserrat*/
+      background-color: #040708;
+      color: #FFFFFF;
+  }
+  
+  .cabecalho {
+      padding-left: 30px;  
+      margin-top: 1.25em;
+      text-transform: uppercase;
+      color: rgb(229, 9, 20);
+      font-size: 1.56em;
+      font-weight: 800;
+  }
+  
+  .principal {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+     flex-flow: row wrap; 
+      background-color: #141414;
+      width: 100%;
+  }
+  
+  .imagem {
+      margin-top: 10px;
+      width: 50%;
+      border-radius: 10px;
+  }
+  
+  .caixa {
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  
+  .lista li:hover {
+      background-color: rgb(229, 9, 20);
+      font-size: 30px;
+      text-decoration: underline;
+  }
+  
+  .lista li:active {
+      background-color: #993399;
+  }
+  
+  .lista h2 {
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  
+  .lista li {
+      top: 0;
+      padding: 10px;
+      font-size: 18px;
+      box-sizing: border-box;
+      border: 2px solid #FFFFFF;
+      border-radius: 10px;
+  }
+  
+  nav a {
+      font-size: 18px;
+      text-decoration: none;
+      color: #FFFFFF;
+  }
+  .texto__palavras-destacadas-html{
+        color: red;
+  }
 
-.cabecalho {
-    text-transform: uppercase;
-    text-align: center;
-    color: rgb(229,9,20);
-    font-size: 25px;
-    font-weight: 800;
-   
-}
+  .texto__palavras-destacadas-css {
+        color: green ;
+  }
+  .texto__palavras-destacadas-imagem {
+    color: rgb(37, 27, 236) ;
+  }
 
-.principal {
-    position: relative;
-    top: 80px;
-    background-color: #141414;
-    width: 100%;
-    
-}
+  .texto {
+      margin-top: 10px;
+      padding: 10px;
+      font-size: 18px;
+      box-sizing: border-box;
+      text-align: center;
+  }
+  
+  #odisseu-logo {}
+  
+  footer {
+      padding-top: 5%;
+      width: 100%;
+      height: 55%;
+      text-align: center;  
+      /* align-items: center; */
+      font-size: 13px;
+      color: #fffff6;
+      background-color: #070d0f;
+      box-sizing: border-box;
+  }  
+  /* mobile */
+ 
+    @media only screen and (max-width: 768px) {
+     /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries */   
+        .principal {
+            width: 100%;
+            display: flex;
+            flex-flow: column wrap;
+        }
 
-.imagem {
-    position: relative;
-    width: 50%;
-    top: 12px;
-    left: 70px;
-    /*border: 2px solid #FFFFFF;*/
-}
-.lista li:hover{
-    background-color: rgb(229,9,20);
-    font-size: 30px;
-    text-decoration: underline;
-}
-.lista li:active{
-    background-color: #993399;
-}
+        .imagem {
+            width: 100%;
+        }
 
-.lista{
-    display: inline-block;
-    margin-left: 10px;
-}
-.lista h2 {
-    padding: 10px;
-    font-size: 20px;
-    font-weight: bold;
-}
-.lista li {
-    top: 0;
-    padding: 10px;
-    font-size: 18px;
-    box-sizing: border-box;
-    border: 2px solid #FFFFFF;
-    border-radius: 10px ;
-}
-nav a {
-    font-size: 18px; 
-    text-decoration: none;
-    color: #FFFFFF;
-}
-.caixa {
-    /*border: 2px solid #FFFFFF;*/
-    width: 940px;
-    margin: 10px auto;
-    padding: 10px;
-    
-}
+        .caixa {
+        display: flex;
+        flex-flow: column wrap;
+        padding: 20px;
 
-.texto {
-    padding: 10px;
-    font-size: 18px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-#odisseu-logo {
-
-}
-
-footer{
-    padding: 65px 0;
-    text-align: center;
-    font-size: 13px;
-    color: #fffff6;
-    
-    background-color: #070d0f;
-}
+        }
+        
+        footer {
+            display: flex;
+            flex-flow: column wrap;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+        }
+    }

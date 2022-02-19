@@ -1,41 +1,54 @@
-<!DOCTYPE html> <!-- "Seta" o tipo de arquivo que ira ser lido pelo navegador -->
-<html lang= "pt-br"> <!-- Aqui e definido a linguagem  -->
-        <head>
-            <meta charset= "UFT-8"> <!-- aqui e setado o encode UFT-8 que tem varios acentos-->
-            <title>Revisao de Conteudo HTML5 e CSS3</title>
-            <link rel="stylesheet" href="reset.css">
-            <link rel= "stylesheet" href= "style.css"><!-- Referencia a  pasta de estilo -->
-        </head>
+<!DOCTYPE html>
+<!-- "Seta" o tipo de arquivo que ira ser lido pelo navegador -->
+<html lang="pt-br">
+<!-- Aqui e definido a linguagem  -->
 
-        <body>
-            <header>
-                <h1 class= "cabecalho">Revisão do curso de HTML5 e CSS3</h1>
-            </header>
-                <main class="principal">
+<head>
+    <meta charset="UFT-8">
+    <!-- aqui e setado o encode UFT-8 que tem varios acentos-->
+    <title>Revisão de Conteudo HTML5 e CSS3</title>
+    <!-- Referencia a  pasta de estilo -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <!--fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="cabecalho">Revisão do curso de HTML5 e CSS3</h1>
+    </header>
+    <main class="principal">
 
-                        <div class= "caixa">
-                            <ul class= "lista">
-                                <nav> <!--navigation-->
-                                <h2 class= "titulo">O que foi aprendido neste curso:</h2>
-                                <li class= "itens"><a href="https://www.alura.com.br/artigos/html-css-e-js-definicoes">O que é o HTML e o CSS</a></li>
-                                <li class= "itens"><a href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html">A estrutura básica de um arquivo HTML</a></li>
-                                <li class= "itens"><a href="https://www.codigofonte.com.br/artigos/como-ver-os-erros-do-meu-site-parte-1"> Utilizar o navegador para inspecionar elementos</a></li>
-                                <li class= "itens"><a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics">Definir estilos para elementos usando o CSS</a></li>
-                                <li class= "itens"><a href="https://www.youtube.com/watch?v=XnwijZyS6ro">Desenvolver uma página Web</a></li>
-                            </nav>
-                            </ul> 
-                            <img class="imagem" src= "html.jpg">
-                         </div>
-                    <p class= "texto">Durante o Curso, eu aprendi várias coisas, dentre elas estão:o meu entendimento de como funciona linguagem de marcação
-                    html,<br> como funciona o css e as maneiras de aplica-lo ao meu código Html( inline,internal e external)
-                    a inserção de imagens na página,<br> a criação de listas, o redimensionamento de conteúdo e muito mais.
-                    </p>
-            </main>
-            <footer>
-                <img id="odisseu-logo" src= "odisseu.png">
-                <p class="copyright">&copy;Copyright Ulisses Coporations - 2021</p>
-            
-            </footer>
-        </body>   
-       
-    </html>
+        <div class="caixa">
+            <ul class="lista">
+                <nav>
+                    <!--navigation-->
+                    <h2 class="titulo">O que foi aprendido neste curso:</h2>
+                    <li class="itens"><a href="https://www.alura.com.br/artigos/html-css-e-js-definicoes">	
+                                    &#10067; O que é o HTML e o CSS</a></li>
+                    <li class="itens"><a href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html">	
+                                    &#10067; A estrutura básica de um arquivo HTML</a></li>
+                    <li class="itens"><a href="https://www.codigofonte.com.br/artigos/como-ver-os-erros-do-meu-site-parte-1">	
+                                    &#10067; Utilizar o navegador para inspecionar elementos</a></li>
+                    <li class="itens"><a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics">	
+                                    &#10067; Definir estilos para elementos usando o CSS</a></li>
+                    <li class="itens"><a href="https://www.youtube.com/watch?v=XnwijZyS6ro">	
+                                    &#10067; Desenvolver uma página Web</a></li>
+                </nav>
+            </ul>
+            <img class="imagem" src="html.jpg">
+        </div>
+        <p class="texto">Durante o Curso, eu aprendi várias coisas, dentre elas estão:<br> o meu entendimento de como funciona linguagem de <span class="texto__palavras-destacadas-html" >marcação html</span>,<br><span class="texto__palavras-destacadas-css" >como funciona o CSS</span> e as maneiras de aplica-lo ao meu código HTML (inline,internal e external)<br> a <span class="texto__palavras-destacadas-imagem" >inserção de imagens</span> na
+            página,a criação de listas, o redimensionamento de conteúdo e muito mais.
+        </p>
+    </main>
+    <footer>
+        <img id="odisseu-logo" src="odisseu.png">
+        <p class="copyright">&copy;Copyright Ulisses Coporations - 2021</p>
+
+    </footer>
+</body>
+
+</html>
